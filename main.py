@@ -8,7 +8,7 @@ import os
 import importlib.util
 from pathlib import Path
 
-# --- 1. AUTO INSTALLER (Checks first, then installs) ---
+# 1. AUTO INSTALLER (Checks first, then installs) 
 def install_tools():
     tools = ["mysql-connector-python", "python-dotenv"]
     for tool in tools:
@@ -24,7 +24,7 @@ from dotenv import load_dotenv
 BASE_DIR = Path(__file__).resolve().parent
 load_dotenv(dotenv_path=BASE_DIR / ".env")
 
-# --- 2. DATABASE SETUP ---
+# 2. DATABASE SETUP
 def setup_db():
     common_pass = ["", "root", "password"]
     conn = None
@@ -60,7 +60,7 @@ def setup_db():
     conn.close()
     return True
 
-# --- 3. RUNNER ---
+# 3. RUNNER 
 def start_project():
     print("="*50)
     print("      SELF-HEALING SYSTEM WATCHER ACTIVE      ")
