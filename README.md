@@ -2,9 +2,16 @@
 
 **Project Introduction:** This is a hybrid automated system-monitor that combines C++ (low-level RAM sensing) and Python (decision logic) to maintain OS stability. It automatically detects high memory usage, triggers 'Self-Healing' repairs to prevent system crashes, and records all diagnostic data in a MySQL database for real-time health tracking.
 
+<<<<<<< HEAD
 ### Project Live Video
 ![System Watcher Live](Self-Healing-system-watcher-live-rec.mp4)
 
+=======
+<div align="center">
+  <video src="https://github.com/user-attachments/assets/12a9b563-a907-4ebe-96b8-76d052e4175d" width="100%" controls>
+  </video>
+</div>
+>>>>>>> bb7c9697acce027948b1451e6c09d22d103ae1b3
 
 ### Why Hybrid? (Approach)
 This project follows a two-layer design to balance performance and flexibility.
