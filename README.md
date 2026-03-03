@@ -4,7 +4,8 @@
 
 
 ### Project Live Video
-![System Watcher Live](Self-Healing-system-watcher-live-rec.mp4)
+<video src="https://github.com/user-attachments/assets/12a9b563-a907-4ebe-96b8-76d052e4175d" controls="controls" style="max-width: 100%;">
+</video> 
 
 
 ### Why Hybrid? (Approach)
